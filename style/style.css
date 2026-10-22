@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fffdf5;
+    color: #46545a;
+
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* titulos */
+
+h1, h2, h3 {
+    color: #648a91;
+}
+
+h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: #648a91;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* cabeçalho */
+
+.cabecalho {
+    background-color: #d9edf0;
+    color: #465f65;
+    padding: 30px 0;
+    border-bottom: 5px solid #f7e9b8;
+}
+
+
+.etiqueta {
+    margin-bottom: 5px;
+    color: #8b9f78;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #526b70;
+}
+
+/* menu */
+
+.menu-lista {
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-lista li {
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 8px;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 8px 14px;
+
+    background-color: #fffdf5;
+    color: #527b83;
+
+    border: 2px solid #c4dfe0;
+    border-radius: 20px;
+
+    text-decoration: none;
+}
+
+/*.menu-link:hover {
+    background-color: #f7e9b8;
+    border-color: #ead99b;
+    color: #5d6850;
+}*/
+
+.secao {
+    padding: 40px 0;
+}
+
+
+.grade-cards {
+    display: grid;
+    gap: 24px;
+    padding-top: 20px;
+}
+
+/* cards */
+
+.card {
+    padding: 24px;
+
+    background-color: #ffffff;
+    border: 2px solid #f5dce5;;
+    border-radius: 16px;
+
+    box-shadow: 0 5px 16px rgba(105, 140, 135, 0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 25px;
+    color: #648a91;
+}
+
+/* recomendaçoes */
+
+.lista-recomendacoes {
+    display: grid;
+    gap: 24px;
+    padding-top: 20px;
+}
+
+.recomendacao {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    padding: 22px;
+
+    background-color: #ffffff;
+    border: 3px solid #f5dce5;;
+    border-radius: 16px;
+
+    box-shadow: 0 5px 16px rgba(120, 110, 145, 0.07);
+}
+
+.recomendacao img {
+    width: 180px;
+    height: 230px;
+
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #f5dce5;;
+}
+
+.texto-recomendacao h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #748a79;
+    font-size: 25px;
+}
+
+.texto-recomendacao a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 7px 12px;
+
+    background-color: #dcebe4;
+    color: #476d60;
+
+    border: 1px solid #c4dacf;
+    border-radius: 18px;
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* cuidados */
+
+.lista-cuidados {
+    padding-left: 22px;
+}
+
+.lista-cuidados li {
+    margin-bottom: 10px;
+}
+
+.aviso {
+    margin-top: 25px;
+    padding: 18px;
+
+    background-color: #fff5d8;
+    color: #665d45;
+
+    border-left: 5px solid #e8d38d;
+    border-radius: 8px;
+}
+
+.aviso strong {
+    color: #75653b;
+}
+
+/* footer */
+
+.rodape {
+    margin-top: 40px;
+    padding: 25px;
+
+    background-color: #e5f0e5;
+    color: #526b59;
+
+    border-top: 3px solid #d1e3d5;
+    text-align: center;
+}
+
+.rodape p {
+    margin-bottom: 0;
+}
+
+.rodape address {
+    font-style: normal;
+}
+
+.rodape a {
+    text-decoration: none;
+}
